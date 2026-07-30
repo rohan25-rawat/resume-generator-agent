@@ -23,7 +23,7 @@ st.title("AI RESUME GENERATOR")
 st.write("""This app helps user to build customized Professional
 Resume with Latest Job apply links""")
 
-st.image("bg.png")
+st.image("bg.jpg")
 
 
 
