@@ -85,15 +85,15 @@ def search_latest_news_jobs(query):
   response = client.search(query)
   return response
 
-  #==========Agent Creation============
 
-  agent = create_agent(
+
+  #==========Agent Creation============
+agent = create_agent(
     model = model,
     tools = [search_latest_news_jobs])
-  # agent
+
 
   #=======Main Agent============
-
 def main_agent(agent, query):
   """This is main agent, or laeder agent
   that orchestrate main agents"""
